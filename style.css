@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #c19869;
+}
+
+h1 {
+  position: absolute;
+  font-family: "Lato";
+  font-weight: 200;
+  font-size: 3rem;
+  color: #fff;
+  top: 15%;
+  left: 15%;
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button2 {
+  padding: 0.5em 3em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+.button2:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
+
+.cards {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  gap: 1em;
+}
+
+.card {
+  background-color: transparent;
+  display: block;
+  width: 300px;
+  min-height: 90px;
+  cursor: pointer;
+  padding: 15px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 300;
+}
